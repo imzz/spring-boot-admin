@@ -9,7 +9,9 @@
     </parent>
     <artifactId>spring-boot-admin-server-ui</artifactId>
     <build>
+    <pluginManagement>
       <plugins>
+      
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
@@ -72,6 +74,7 @@
           </configuration>
         </plugin>
       </plugins>
+      </pluginManagement>
       <resources>
         <resource>
           <directory>target/dist</directory>
